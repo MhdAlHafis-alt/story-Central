@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "judul": "Pleseter Cinta",
+    "kategori": "Romansa",
+    "thumbnail": "https://images.unsplash.com/photo-1516410529446-2c777cb7366d?w=400",
+    "deskripsi": "Tentang petikan gitar yang menyatukan dua jiwa di stasiun tua yang hampir terlupakan.",
+    "waktu_baca": "selamat membaca",
+    "penulis": "Ariswara"
+  },
+  {
+    "id": 2,
+    "judul": "Sinyal dari Andromeda",
+    "kategori": "Sci-Fi",
+    "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400",
+    "deskripsi": "Pesan rahasia yang tersembunyi di balik barisan kode bintang yang terpancar setiap satu dekade.",
+    "waktu_baca": "10 mnt",
+    "penulis": "Luna C."
+  },
+  {
+    "id": 3,
+    "judul": "Misteri Lemari Kayu",
+    "kategori": "Horor",
+    "thumbnail": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=400",
+    "deskripsi": "Jangan pernah mengetuk tiga kali saat jam dinding menunjukkan tepat pukul satu malam.",
+    "waktu_baca": "7 mnt",
+    "penulis": "D. Satria"
+  },
+  {
+    "id": 4,
+    "judul": "Pelari Labirin Waktu",
+    "kategori": "Fantasi",
+    "thumbnail": "https://images.unsplash.com/photo-1500462859233-01970d46244b?w=400",
+    "deskripsi": "Seorang pemuda menemukan jam saku yang bisa menghentikan detik, tapi tidak menghentikan takdir.",
+    "waktu_baca": "12 mnt",
+    "penulis": "Eka Putra"
+  },
+  {
+    "id": 5,
+    "judul": "Rembulan di Balik Kaca",
+    "kategori": "Romansa",
+    "thumbnail": "https://images.unsplash.com/photo-1507502707541-f369a3b18502?w=400",
+    "deskripsi": "Kisah tentang harapan yang terpantul pada dinginnya jendela malam.",
+    "waktu_baca": "8 mnt",
+    "penulis": "Sastra A."
+  }
+]

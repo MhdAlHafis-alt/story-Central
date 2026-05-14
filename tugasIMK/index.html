@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda | StoryCentral</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="glass-header">
+        <div class="header-container">
+            <div class="header-section left">
+                <a href="index.html" class="logo">Story<span>Central</span></a>
+            </div>
+            <nav class="header-section center main-nav">
+                <a href="index.html" class="active">Beranda</a>
+                <a href="kategori.html">Kategori</a>
+                <a href="about.html">Tentang</a>
+            </nav>
+            <div class="header-section right">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Cari cerita...">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Container Utama -->
+    <div class="container">
+        <!-- Main Layout menggunakan Flexbox di CSS -->
+        <div class="main-layout">
+            
+            <!-- SISI KIRI: KONTEN UTAMA -->
+            <main class="content-left">
+                <!-- Hero Slider -->
+                <section class="slider-wrapper">
+                    <div class="hero-slider" id="hero-slider">
+                        <div class="hero-card">
+                            <img src="https://images.unsplash.com/photo-1474932430478-367dbb6832c1?w=1200" alt="Featured">
+                            <div class="hero-overlay">
+                                <div class="hero-info">
+                                 <span class="badge">CERITA PILIHAN</span>
+                                 <h2>Rembulan di Balik Kaca</h2>
+                                 <p>Sebuah kisah tentang kenangan yang terjebak dalam ruang waktu yang membeku.</p>
+                                     <!-- Tambahkan link sesuai ID cerita di script.js (ID: 5) -->
+                                 <a href="baca.html?id=5">
+                                      <button class="btn-primary">Baca Sekarang</button>
+                                 </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="grid-section">
+                    <div class="section-title">
+                        <h3>Eksplorasi Cerita</h3>
+                    </div>
+                    <div class="modern-grid" id="story-grid">
+                        <!-- Konten diisi via JS (Pastikan JS menggenerate class 'card-body') -->
+                    </div>
+                </section>
+            </main> <!-- Penutup content-left yang benar -->
+
+            <!-- SISI KANAN: SIDEBAR -->
+            <aside class="sidebar-right">
+                <div class="glass-box">
+                    <h4 class="side-title">Kategori Populer</h4>
+                    <div class="genre-wrap">
+                        <span onclick="filterByCategory('Romansa')">Romansa</span>
+                        <span onclick="filterByCategory('Sci-Fi')">Sci-Fi</span>
+                        <span onclick="filterByCategory('Horor')">Horor</span>
+                        <span onclick="filterByCategory('Fantasi')">Fantasi</span>
+                    </div>
+                </div>
+                <div class="glass-box">
+                    <h4 class="side-title">Statistik Dunia</h4>
+                    <div class="rank-item">
+                        <div class="rank-no">01</div>
+                        <div class="rank-text">
+                            <h5>1.2k Cerita</h5>
+                            <p>Telah diterbitkan</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+        </div> <!-- Penutup main-layout yang benar -->
+    </div> <!-- Penutup container yang benar -->
+
+    <script src="script.js"></script>
+</body>
+</html>
