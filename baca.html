@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baca Cerita | StoryCentral</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Tambahkan font yang sama dengan index agar konsisten -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="glass-header">
+        <div class="header-container">
+            <div class="header-section left">
+                <a href="index.html" class="logo">Story<span>Central</span></a>
+            </div>
+            <nav class="header-section center main-nav">
+                <a href="index.html">Beranda</a>
+                <a href="kategori.html">Kategori</a>
+                <a href="about.html">Tentang</a>
+            </nav>
+            <div class="header-section right">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Cari cerita...">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-layout" style="justify-content: center;"> 
+            <!-- Dibuat center agar fokus ke teks bacaan -->
+            <main class="glass-box" style="padding: 40px; max-width: 850px; width: 100%;">
+                <h1 id="judul-cerita" style="color: var(--accent); margin-bottom: 10px; font-size: 2.5rem;"></h1>
+                <p id="info-penulis" style="color: var(--text-dim); font-size: 1rem; margin-bottom: 30px; border-bottom: 1px solid var(--glass-border); padding-bottom: 20px;"></p>
+                
+                <div id="isi-cerita" style="line-height: 1.8; font-size: 1.15rem; color: var(--text); white-space: pre-line;">
+                    <!-- Teks cerita lengkap akan muncul di sini -->
+                    Memuat cerita...
+                </div>
+                
+                <div style="margin-top: 50px; border-top: 1px solid var(--glass-border); padding-top: 30px;">
+                    <a href="index.html" class="btn-primary" style="text-decoration: none; display: inline-block;">
+                        ← Kembali ke Beranda
+                    </a>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- PENTING: Panggil script.js di sini agar logika penampil cerita berjalan -->
+    <script src="script.js"></script>
+</body>
+</html>
