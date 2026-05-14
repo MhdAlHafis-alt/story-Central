@@ -31,7 +31,7 @@ const dataCerita = [
                 Tania berlari dan mendekati wasit menandakan dirinya sudah siap bertanding. Rido dan Tania jelas berbeda bahkan banyak yang meledek pasangan ini. Bagaimana tidak, mereka memiliki tinggi badan yang berbeda dan Ridolah yang pendek di sini.
 
                 Namun, Rido sudah bertekad, bahkan saat ia memutuskan untuk masuk ekskul PMR, itu semua untuk Tania agar Rido dapat mendukung Tania selalu.`,
-        waktu_baca: "selamat membaca",
+        waktu_baca: "",
         penulis: "Elly Abriyanti Widyaningrum"
     },
     {
@@ -43,7 +43,7 @@ const dataCerita = [
         konten: `Luna menatap layar monitornya dengan cemas. Sinyal yang ia terima bukan berasal dari bumi, melainkan dari galaksi Andromeda. Barisan kode digital itu membentuk pola yang tidak biasa, sebuah pesan terenkripsi yang berisi koordinat rahasia.
 
 "Apakah kita benar-benar sendirian?" bisiknya pelan. Detik berikutnya, seluruh perangkat di laboratorium mati total, menyisakan satu kalimat di layar: 'Kami menunggu kalian di gerbang cahaya'.`,
-        waktu_baca: "selamat membaca",
+        waktu_baca: "",
         penulis: "Luna C."
     },
     {
@@ -72,7 +72,7 @@ const dataCerita = [
 
 
 `,
-        waktu_baca: "selamat membaca",
+        waktu_baca: "",
         penulis: "Ajen Dianawati"
     },
     {
@@ -92,7 +92,7 @@ const dataCerita = [
                     Kesempatan ini kemudian digunakan oleh si kancil untuk menyeberang sungai sambil berpura-pura menghitung jumlah buaya. Sesampainya di seberang, ia pun tertawa terbahak-bahak.
 
                     “Sebenarnya aku tidak punya daging, aku hanya membutuhkan bantuan kalian untung menyeberang. Hahaha!” kata kancil. Para buaya pun marah dan mencoba menangkapnya. Sayangnya si kancil sudah terlanjur lari menjauh dari tepian sungai.`,
-        waktu_baca: "selamat membaca",
+        waktu_baca: "",
         penulis: "Eka PutraRahimidin Zahari & Jaatar Taib"
     },
     {
@@ -104,7 +104,7 @@ const dataCerita = [
         konten: `Di balik kaca jendela yang berembun, ia menatap rembulan. Harapan yang selama ini ia simpan perlahan mulai memudar seperti cahaya bulan yang tertutup awan. 
 
         Ia teringat janji yang diucapkan setahun lalu, di bawah langit yang sama. Namun kini, hanya ada sunyi dan pantulan wajahnya sendiri yang tampak lelah di balik beningnya kaca. Apakah rembulan di sana juga merasakan rindu yang sama?`,
-        waktu_baca: "selamat membaca",
+        waktu_baca: "",
         penulis: "Sastra A."
     },
 ];
